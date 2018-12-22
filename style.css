@@ -1,0 +1,40 @@
+body {
+    font-family: sans-serif;
+}
+
+main {
+    width: 100%;
+}
+#mähis {
+    overflow-x: auto;
+}
+#tabel {
+    border-collapse: collapse;
+    font-size: 1em;
+    margin: 2em 0;
+    font-family: monospace;
+}
+#tabel td {
+    padding: 0.5em;
+    text-align: center;
+}
+#tabel tr {
+    margin: 1em 0;
+}
+#tabel td:not(:first-child) {
+    border: 1px solid black;
+}
+#tabel td:first-child {
+    white-space: nowrap;
+    padding-right: 1em;
+}
+
+#endaoma {
+    font-size: 1em;
+    padding: 0;
+}
+#arvutused {
+    border: 1px solid black;
+    padding: 1em;
+    margin-bottom: 1em;
+}

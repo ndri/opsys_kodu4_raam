@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ee">
+<head>
+    <title>Neljas kodutöö</title>
+    <meta charset="UTF-8">
+    <link type="text/css" rel="stylesheet" href="style.css"/>
+    <script src="script.js"></script>
+</head>
+<body>
+<main>
+    <h1>Neljas kodutöö</h1>
+    <p>Vali või sisesta järjend (kujul A,2;B,3;A,-;C,4). Max 10 faili.</p>
+    <form>
+        <input id="järjend1" type="radio" name="järjend" value="A,2;B,3;A,-;C,4;D,5;B,-;E,5" checked><label for="järjend1">A,2;B,3;A,-;C,4;D,5;B,-;E,5</label><br>
+        <input id="järjend2" type="radio" name="järjend" value="A,4;B,3;C,6;D,5;B,-;E,5;A,-;F,10"><label for="järjend2">A,4;B,3;C,6;D,5;B,-;E,5;A,-;F,10</label><br>
+        <input id="järjend3" type="radio" name="järjend" value="A,2;B,3;C,4;D,5;B,-;E,7;D,-;F,10;A,-;G,1;H,1;G,-;I,10;J,8;I,-"><label for="järjend3">A,2;B,3;C,4;D,5;B,-;E,7;D,-;F,10;A,-;G,1;H,1;G,-;I,10;J,8;I,-</label><br>
+        <input id="järjend4" type="radio" name="järjend" value=""><label for="järjend4"><input id="endaoma" type="text" size="30" placeholder="Enda oma"></label><br><br>
+        <button type="button" onclick="vajutus()">Käivita</button>
+        <button type="button" onclick="uusTabel([])">Puhasta väljund</button>
+    </form>
+    <div id="mähis">
+        <table id="tabel"></table>
+    </div>
+    <div>Arvutused:</div>
+    <div id="arvutused"></div>
+</main>
+</body>
+</html>
